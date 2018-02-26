@@ -26,7 +26,7 @@ public class HelloWorldServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		request.getRequestDispatcher("/views/HelloWorld.html").forward(request,response);
 	}
-
+ 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
